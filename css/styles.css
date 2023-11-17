@@ -1,0 +1,94 @@
+/* GENERAL */
+
+@font-face {
+    font-family: "Fairies";
+    src: url(../Font/Fairies.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Stayola";
+    src: url(../Font/Stayola.ttf) format("truetype");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bgColor {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+/* HEADER */
+.home {
+    width: 25px;
+}
+
+.banner {
+    background-image: url(../images/baniere.png);
+    background-size:cover;
+    height: 250px;
+}
+
+h1 {
+    font-family: "Fairies";
+    text-shadow: 3px 5px 5px white;
+    color: black;
+}
+
+#accueil span:hover {
+    color:aquamarine;
+}
+
+/* MAIN */
+
+main {
+    color: white;
+}
+
+h2, h3 {
+    font-family: "Stayola";
+    text-align: center;
+}
+
+section > p {
+    text-align: center;
+}
+
+.card:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
+}
+
+form {
+    background: rgba(23, 48, 59, 0.8);
+    
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+}
+
+footer div:first-of-type a i {
+    font-size: 40px;
+    color: white;
+}
+
+footer  div:first-of-type a i:hover {
+    color:aquamarine;
+}
+
+.arrow {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+}
